@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: gateway
-          image: gcr.io/[GOOGLE_PROJECT_ID]/gateway
+          image: gcr.io/nimble-equator-298708/gateway
           ports:
             - containerPort: 8080
